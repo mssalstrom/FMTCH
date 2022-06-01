@@ -1,10 +1,25 @@
 {
-    "name": "LCR",
-    "description": "Shows biasy ratings from allsides.com on mouse hover",
+    "name": "FMTCH",
+    "description": "Changes any instances of Mitch McConnels name to 'RatFuck Shithead'",
     "version": "0.0.1",
     "manifest_version": 3,
     "background": {
         "service_worker": "background.js"
     },
-    "permissions": ["storage"]
+    "permissions": ["storage", "activeTab", "scripting"],
+    "action": {
+        "default_popup": "ui.html",
+        "default_icon": {
+            "16": "/images/lcr_16.png",
+            "32": "/images/lcr_32.png",
+            "48": "/images/lcr_48.png",
+            "128": "/images/lcr_128.png"
+        }
+    },
+    "icons": {
+        "16": "/images/lcr_16.png",
+        "32": "/images/lcr_32.png",
+        "48": "/images/lcr_48.png",
+        "128": "/images/lcr_128.png"
+    }
 }
