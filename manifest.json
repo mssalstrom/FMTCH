@@ -1,6 +1,6 @@
 {
     "name": "FMTCH",
-    "description": "Changes any instances of Mitch McConnels name to 'RatFuck Shithead'",
+    "description": "Changes any occurance of Mitch McConnells name to 'Shithead McRatfuck'",
     "version": "0.0.1",
     "manifest_version": 3,
     "background": {
