@@ -3,6 +3,11 @@
     "description": "Changes any occurance of Mitch McConnells name to 'Shithead McRatfuck'",
     "version": "0.0.1",
     "manifest_version": 3,
+    "content_scripts": [{
+        "matches": ["<all_urls>"],
+        "run_at": "document_idle",
+        "js": ["content.js"]
+    }],
     "background": {
         "service_worker": "background.js"
     },
